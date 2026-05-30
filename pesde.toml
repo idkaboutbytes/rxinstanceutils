@@ -1,0 +1,26 @@
+name = "idkaboutbytes/rxinstanceutils"
+version = "1.0.2"
+description = "RxInstanceUtils package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/rxinstanceutils"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[dependencies]
+Observable = { repo = "idkaboutbytes/observable", rev = "v1.0.2" }
+Loader = { repo = "idkaboutbytes/loader", rev = "v1.2.3" }
+Rx = { repo = "idkaboutbytes/rx", rev = "v1.0.5" }
+Brio = { repo = "idkaboutbytes/brio", rev = "v1.2.2" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.1.2" }
+Symbol = { repo = "idkaboutbytes/symbol", rev = "v1.0.2" }
