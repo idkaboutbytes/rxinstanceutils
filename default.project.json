@@ -1,0 +1,15 @@
+{
+  "name": "RxInstanceUtils",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "RxInstanceUtils": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
